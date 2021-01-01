@@ -457,3 +457,44 @@ a {
       margin-top: 35px;
       margin-bottom: 20px;
   }
+
+  .contact-form {
+    margin-top: 15px;
+  }
+  
+  .contact-form .textarea {
+    min-height: 220px;
+    resize: none;
+  
+  }
+  
+  .form-control {
+    box-shadow: none; 
+    border-color: #eee;
+    height: 49px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color:  #0000FF;
+  }
+  
+  .form-control-feedback {
+    line-height: 50px;
+  }
+  
+  .main-btn {
+    background: #0000FF;
+    border-color: #0000FF;
+    color: #fff;
+  }
+  
+  .main-btn:hover {
+    background: #0d0d5a;
+    color: #fff; 
+  }
+  
+  .form-control-feedback {
+    line-height: 50px;
+    top: 0px;
+  }
