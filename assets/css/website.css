@@ -1,0 +1,84 @@
+body {
+  background: -webkit-linear-gradient(left, #b9b9c9 40%,white 40%);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-xs-6, col-lg-6 {
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  margin: 50vh auto 0;
+  transform: translateY(-60%);
+}
+
+.col1 {
+  background-color: #dcdce4;
+  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+  text-align: center;
+}
+
+.col2 {
+  background-color: white;
+}
+
+.profile-img {
+  border-radius: 50%; 
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  transform: translateY(10%);
+}
+
+.inner-col {
+  transform: translateY(100%);
+}
+
+.contact-img {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.name {
+  margin-right: 130px;
+  transform: translateX(25%);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.uni {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.button {
+  margin: auto;
+}
