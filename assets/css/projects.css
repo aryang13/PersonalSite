@@ -3,4 +3,27 @@ body {
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.column {
+    width: 100%;
+    align-items: center;
+    transform: translateX(25%);
+}
+
+.box {
+    margin-top: 90px;
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    display: inline-block;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 80px;
+    transform: translateY(35%);
+  }
